@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Médio Comercial de Luanda</title>
+    <link rel="stylesheet" href="Css/bootstrap.css">
+    <link rel="stylesheet" href="Css/index.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <div id="menu" class="menu">
+       
+            <a href="formulario.html">Formulário</a>
+            <a href="dados_alunos.html">Dados dos Alunos</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="disciplinas.html">Disciplinas</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Bem-vindo ao site de Joaquim Baje João - Turma BNI</h1>
+        <p>N° 07
+        </p>
+        <p>Classe: 13°
+        </p>
+        <p>Período: noite.</p>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
